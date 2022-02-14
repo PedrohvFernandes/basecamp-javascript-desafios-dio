@@ -10,6 +10,6 @@ Antes de clonar o projeto, tente fazer seguindo as instruções abaixo:
 2. Quando o botão for pressionado, o texto deve aparecer na lista com um `checkbox` ao lado;
 3. Quando o usuário selecionar o checkbox, o item correspondente deve ficar com o texto riscado. _(ex.: ~~tarefa completa~~. dica: você pode resolver isso facilmente com CSS)_
 
-O resultado esperado é parecido com este:
+O resultado:
 
 ![Exemplo de to-do list](assets/exemplo.png)
