@@ -28,8 +28,12 @@ function changeText() {
 const darkModeClass = "dark-mode";
 const button = document.getElementById("mode-selector");
 const h1 = document.getElementById("page-title");
+console.log(h1)
 // [0] -> index, porque quando a gente seleciona algo do dom, ele nos retorna um array, um nó, com isso como so tem um body então é o body do index 0
 const body = document.getElementsByTagName("body")[0];
+const body2 = document.getElementsByTagName("body");
+console.log(body2)
+
 const footer = document.getElementsByTagName("footer")[0];
 
 button.addEventListener("click", changeMode);
